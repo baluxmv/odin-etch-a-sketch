@@ -7,3 +7,5 @@ const grid = size => {
         gridContainer.appendChild(cell);
     }
 };
+
+grid(16);

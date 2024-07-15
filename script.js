@@ -1,5 +1,6 @@
 // Element that represents the container of the grid
 const gridContainer = document.querySelector("#grid-container");
+const resizeButton = document.querySelector("#resize-button");
 
 const grid = size => {
     const gridItemWidth = 100 / size;
@@ -19,6 +20,8 @@ const grid = size => {
         });
     });
 };
+
+
 
 
 

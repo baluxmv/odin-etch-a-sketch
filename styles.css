@@ -22,11 +22,10 @@ h1 {
 #grid-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
     border: 1vh solid black; 
-    max-height: 80vh;
-    max-width: 80vh;
+    width: 80vh;
+    height: 80vh;
+   
     /* Prevents the cells from extending outside the grid
     * container's boundaries by hidding any overflow */
     overflow: hidden;
